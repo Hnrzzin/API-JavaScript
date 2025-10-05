@@ -1,17 +1,6 @@
+npm -v
+node -v
 npm init -y
-npm install express @prisma/client
-npm install --save-dev prisma nodemon
-npx prisma init
-npx prisma db push
-npx prisma studio
-
-npx prisma generate
-npx prisma studio
-
-copiar linha - Shift + Alt + Seta
-mover linha - Alt + Seta
-apagar linha - Cntrl + Shift + K
-ver todas as linhas iguais - Ctrl + de
-multicursor - Alt + Click
-editar tudo de uma vez - Cntrl + Shifft + L
-Zen Mode - Cntrl + K + Z (pra sair só apertar Esc 2x)
+npm install --save-dev nodemon
+npm install express --save
+npm install mongodb

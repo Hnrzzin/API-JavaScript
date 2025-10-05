@@ -1,0 +1,28 @@
+{
+  "name": "jsapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Hnrzzin/API-JavaScript#readme",
+  "bugs": {
+    "url": "https://github.com/Hnrzzin/API-JavaScript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hnrzzin/API-JavaScript.git"
+  },
+  "license": "ISC",
+  "author": "Henry",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.0"
+  }
+}
